@@ -36,6 +36,8 @@ NSString* const MXDirectionEndNotification = @"MXDirectionEndNotification";
     
     layer.backgroundColor = backgroundColor.CGColor;
     
+    layer.opacity = 0.8;
+    
     layer.textColor = color;
     //初始化MaskLayer
     CAShapeLayer* maskLayer = [CAShapeLayer layer];
