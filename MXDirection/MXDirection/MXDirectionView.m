@@ -38,8 +38,6 @@ extern NSString* MXDirectionEndNotification;
     
     MXDirectionView* shadeView = [[MXDirectionView alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    shadeView.alpha = 0.8;
-    
     //初始化相关属性
     MXDirectionShadeLayer* layer = [MXDirectionShadeLayer initWithFrame:shadeView.bounds DirectionActions:actions TextColor:textColor BackGroundColor:backGroundcolor];
     
